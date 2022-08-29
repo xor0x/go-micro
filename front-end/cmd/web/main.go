@@ -9,6 +9,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		
 		render(w, "test.page.html")
 	})
 
